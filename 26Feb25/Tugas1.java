@@ -82,5 +82,5 @@ public class Tugas1 {
     }
 
 // Hitung luas lingkaran
-// Hitung keliling, luas dan diagonal segiempat (persegi panjang)
+// Hitung keliling, luas dan diagonal segiempat (persegi / bujur sangkar)
 // Pakai konsep OOP
