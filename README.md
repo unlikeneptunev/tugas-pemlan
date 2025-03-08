@@ -1,1 +1,1 @@
-Repo buat tugas Pemrograman Lanjut (Pemlan)
+Repositori khusus tugas Pemrograman Lanjut non-Praktikum
