@@ -1,20 +1,14 @@
-import java.util.Date;
-
 public class TransaksiPeminjaman {
     private final String ID_TRANSAKSI;
     private Anggota anggota;
     private Buku buku;
-    private Date tanggalPinjam;
-    private Date tanggalKembali;
     private boolean isSelesai;
     private static int jumlahTransaksi = 0;
 
-    public TransaksiPeminjaman(String idTransaksi, Anggota anggota, Buku buku, Date tanggalPinjam, Date tanggalKembali) {
+    public TransaksiPeminjaman(String idTransaksi, Anggota anggota, Buku buku) {
         this.ID_TRANSAKSI = idTransaksi;
         this.anggota = anggota;
         this.buku = buku;
-        this.tanggalPinjam = tanggalPinjam;
-        this.tanggalKembali = tanggalKembali;
         this.isSelesai = false;
         jumlahTransaksi++;
     }
@@ -37,22 +31,6 @@ public class TransaksiPeminjaman {
 
     public void setBuku(Buku buku) {
         this.buku = buku;
-    }
-
-    public Date getTanggalPinjam() {
-        return tanggalPinjam;
-    }
-
-    public void setTanggalPinjam(Date tanggalPinjam) {
-        this.tanggalPinjam = tanggalPinjam;
-    }
-
-    public Date getTanggalKembali() {
-        return tanggalKembali;
-    }
-
-    public void setTanggalKembali(Date tanggalKembali) {
-        this.tanggalKembali = tanggalKembali;
     }
 
     public boolean isSelesai() {
